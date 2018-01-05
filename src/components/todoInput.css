@@ -1,0 +1,35 @@
+.btn{
+  padding: 15px 25px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: hidden;
+  color: #fff;
+  background-color: #234567;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 9px #999;
+}
+
+.btn-primary {
+  color: rgba(500, 500, 500, 1.0);
+  border-color: rgba(500, 500, 500, 1.0);
+  background-color: black;
+}
+
+input {
+  width: 70%;
+  border: none;
+  border-top: 2px solid rgba(73, 204, 249, 1.0);
+  border-bottom: 2px solid rgba(73, 204, 249, 1.0);
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-top: 2px solid rgba(73, 204, 249, 1.0);
+  border-bottom: 2px solid rgba(73, 204, 249, 1.0);
+}
